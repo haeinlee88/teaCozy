@@ -2,6 +2,7 @@ body {
 
   margin:0px;
   background-color: black;
+  font-family: 'Roboto', sans-serif;
 }
 
 header {
@@ -17,9 +18,8 @@ header {
 
   align-items: center;
 
-  font-family: 'Roboto', sans-serif;
+
   font-size: 20px;
-  color:LightGray;
 
   justify-content: space-between;
 
@@ -31,6 +31,13 @@ header {
 .headerNavItem {
 
   padding:0px 20px 0px 0px;
+  color:LightGray;
+  text-decoration:none;
+}
+
+.headerNavItem:hover {
+
+  color:white;
 }
 
 .main {
@@ -40,7 +47,7 @@ header {
   margin:auto;
 }
 
-.missionContainer{
+#missionContainer{
 
   background:url("../img/img-mission-background.jpg");
   height:800px;
@@ -52,7 +59,7 @@ header {
 }
 
 .missionTextContainer{
-  font-family: 'Roboto', sans-serif;
+
   color:white;
   text-align: center;
   background-color: rgba(0, 0, 0, 0.9);
@@ -69,9 +76,116 @@ h1 {
 .missionTextContainer h1 {
 
   margin:0px 0px 20px 0px;
+  font-size: 40px;
 }
 
 .missionTextContainer span {
 
-  font-size: 20px;
+  font-size: 26px;
+}
+
+#featuredContainer{
+
+  padding:60px 20px 60px 20px;
+  color:white;
+  text-align: center;
+
+}
+
+#featuredContainer h1 {
+
+  padding:0px 0px 20px 0px;
+}
+
+#featuredContainer span {
+
+  font-size: 26px;
+}
+
+.itemContainer {
+
+  display:flex;
+  flex-wrap:wrap;
+  justify-content: center;
+  padding:30px 0px 0px 0px;
+
+
+}
+
+.item {
+
+  width:300px;
+  height:250px;
+  padding:0px 20px 20px 20px;
+}
+
+#locationContainer{
+
+  background:url("../img/img-locations-background.jpg");
+  height:600px;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+}
+
+#locationContainer h1 {
+
+  color:white;
+  padding:0px 0px 20px 0px;
+}
+
+.columnContainer{
+
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  width:100%;
+}
+
+.column{
+
+  background-color: rgba(0, 0, 0, 0.9);
+  width:300px;
+  height:300px;
+  margin:0px 20px 0px 20px;
+  text-align: center;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.column span {
+
+  color:LightGray;
+  font-size:30px;
+  padding:10px 0px 10px 0px;
+}
+
+#contactContainer{
+
+  padding:60px 20px 60px 20px;
+  color:white;
+  text-align: center;
+
+}
+
+#contactContainer h1 {
+
+  margin-bottom: 20px;
+  font-size:40px;
+}
+
+#contactContainer span{
+
+  font-size:20px;
+}
+
+footer{
+  color:white;
+  padding:0px 25px 50px 25px;
+
 }
